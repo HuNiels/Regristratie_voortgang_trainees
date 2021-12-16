@@ -1,0 +1,235 @@
+
+.feather-icon{
+    fill:rgb(0, 121, 46)
+}
+.text-black {
+    color:black;
+}
+
+.review-date{
+    float:left;
+}
+
+.trainee-name{
+    float:left;
+    text-align: center;
+}
+
+.trainee-location{
+    float:left;
+    text-align: center;
+}
+
+.container {
+    position:relative;
+}
+
+.review-bottom-bar div {
+    padding:5px;
+    margin:0px 15px;
+}
+.review-bottom-bar button{
+    margin:5px;
+}
+.review-bottom-bar div textarea{
+    width:90%;
+}
+
+/*#region ReviewTable */
+.reviewTable, .addReviewTable{
+    display:block;
+    height:500px;
+    overflow-x:hidden;
+}
+
+.reviewTable thead, .addReviewTable thead{
+    background-color:#fff!important;
+}
+.reviewTable th, .addReviewTable th{
+    position:sticky;
+    top:0;
+    background-color:#fff!important;
+    z-index:1;
+
+}
+.addReviewTable td:nth-child(2){
+    white-space: nowrap;
+}
+.addReviewTable td:nth-child(4),.addReviewTable th:nth-child(4){
+    width:100%;
+}
+
+.reviewTable td:nth-child(1){
+    white-space: nowrap;
+}
+.reviewTable td:nth-child(3),.reviewTable th:nth-child(3){
+    width:100%;
+}
+
+.addReviewTable .activeCheckbox:hover{
+    background-color:rgb(204, 44, 62,.2)!important;
+}
+.addReviewTable .activeCheckbox{
+    color:#CC2C3E!important;
+}
+.addReviewTable .featherCheckbox:hover{
+    background-color:rgb(0, 121, 46,.2)!important;
+}
+.addReviewTable .featherCheckbox{
+    color:rgb(0, 121, 46)!important;
+}
+.addReviewTable .Mui-disabled{
+    color:lightgrey!important;
+}
+
+.theme-text {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted grey;
+}
+
+.theme-text .displayMessage{
+    visibility: hidden;
+    width: 200px;
+    background-color: #F8F8FF;
+    color: black;
+    font-size: 11px;
+    text-align: center;
+    padding: 5px 0;
+    border: outset 1px;
+    border-color: black;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+
+    top: 20px;
+    left: 110%;    
+}
+
+.theme-text:hover .displayMessage {
+    visibility: visible;
+    position: absolute;
+    opacity: 1;
+  }
+
+.concept-text {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted grey;
+}
+
+.concept-text .displayMessage{
+    visibility: hidden;
+    width: 200px;
+    background-color: #F8F8FF;
+    color: black;
+    font-size: 11px;
+    text-align: center;
+    padding: 5px 0;
+    border: outset 1px;
+    border-color: black;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+
+    top: 10px;
+    left: 105%;
+  }
+
+.concept-text:hover .displayMessage {
+    visibility: visible;
+  }
+
+.rating-star {
+    vertical-align: top;
+}
+
+.rating-text {
+    font-size: small;
+    min-width: fit-content;
+    vertical-align: top;
+}
+
+.comment-text {
+    font-size:10px;
+}
+
+/*#endregion ReviewTable */
+
+/*#region ConceptSelectionStyling  */
+.conceptSelection {
+    background-color: rgb(226, 226, 226);
+    border-radius:4px;
+    padding:20px;
+}
+.sliderThumb span
+{
+    background:none;
+    top:-5px;
+    left:2px;
+    width:15px;
+    height:15px;
+    color:#000;
+}
+.sliderThumb{
+    background-color:#ffc107!important;
+}
+.selectionSlider{
+    color:#CC2C3E!important;
+}
+.conceptSelection .lightButton{
+    margin:0px 5px;
+    padding:1px 3px;
+    min-width:0;
+    background-color:lightGrey;
+    float:right;
+}
+.conceptSelection{
+    position:sticky;
+    top:0;
+    height:440px;
+    width:20%;
+}
+.conceptSelection div{
+    position:sticky;
+    top:0;
+}
+
+.conceptSelection .lightButton:hover{
+    background-color:rgb(155, 155, 155);
+}
+.selectionTitle{
+    display:inline;
+}
+.selectionCheckbox{
+    color:#ffc107!important;
+    
+}
+.checkboxControl{
+    width:33%;
+    padding:1px;
+    margin:0;
+}
+.checkboxControl .MuiFormControlLabel-label{
+    font-size:12px!important;
+}
+.checkboxControl .MuiButtonBase-root{
+    padding:3px!important;
+}
+.selectionCheckbox .icon{
+    height:10px!important;
+    width:10px!important;
+}
+.conceptSelection .switchChecked + .switchTrack{
+    background-color:#CC2C3E!important;
+}
+.conceptSelection .switchChecked  .switchThumb{
+    background-color:#CC2C3E!important;
+}
+/*#endregion ConceptSelectionStyling */
+
+.messageSucces{
+    display: block;
+}
