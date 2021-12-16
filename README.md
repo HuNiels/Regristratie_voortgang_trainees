@@ -9,10 +9,6 @@ Het Educom Registratie Voortgang Trainees platform is een groepsopdracht voor tr
 Het platform is bedoeld om alle beoordelingen van trainees door docenten gelijk aan elkaar te laten maken en op die manier een vergelijkbaar CV te maken onder alle Educom trainees.
 #### Versie
 0.1
-#### Trello bord
-Voor dit project is er een [Trello bord](https://trello.com/b/vjGU0IEs/educom-rvt) waar alle taken in staan beschreven.
-Vraag aan een van de ontwikkelaars om toegang tot het bord.
-
 
 ### Hoe zet ik het project op? ###
 
@@ -194,25 +190,3 @@ Dit wordt apart van elkaar gedaan op de production branch. Deze branch zal altij
 ##### De gegevens
 
 URL: https://voortgang.educom.nu
-
-###### FTP
-server: voortgang.educom.nu
-user: edu-voortgang
-Ww: @j0v22nS
-
-
-###### SSH
-> ssh edu-voortgang@edu-deta.com
-Ww: @j0v22nS
-
-
-###### MySQL
-DB: db_voortgang
-User: usr_voortgang
-Ww: ?120qhZl
-Host: localhost
-
-### Help! Wie moet ik contacten? ###
-
-* Neem contact op met een van de ontwikkelaars
-* Neem contact op met de docent Jeroen van locatie Utrecht _jeroen.heemskerk@educom.nu_
